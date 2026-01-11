@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(to bottom, #000000cc, #000000ee), 
+              url("https://i.imgur.com/7r4H6H8.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 80px;
+  letter-spacing: 10px;
+  color: red;
+}
+
+button {
+  padding: 15px 40px;
+  font-size: 20px;
+  border: none;
+  background: red;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkred;
+}
+
+.player {
+  display: none;
+  padding: 20px;
+}
+
+video {
+  width: 90%;
+  max-width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px red;
+}
